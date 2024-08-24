@@ -1,0 +1,14 @@
+[project]
+name = "mit-or-gpl-3-0-plus-multi-license-investigator"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT OR GPL-3.0-or-later"}
+dependencies = [
+    "ruff >= 0.6.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
